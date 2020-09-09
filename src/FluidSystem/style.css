@@ -1,0 +1,120 @@
+.fluidSystemWrapper {
+  padding: 16px;
+}
+.trophyHeaderWrap {
+  display: flex;
+}
+.w-100 {
+  width: 100%;
+}
+.logoResponsive {
+  display: none;
+}
+img {
+  width: inherit;
+}
+.textLeft {
+  text-align: left;
+}
+.textJustify {
+  text-align: justify;
+}
+.heading {
+  font-weight: bold;
+}
+.govtLines {
+  margin-top: 16px;
+}
+li {
+  text-align: justify;
+}
+.trophyWrap {
+  display: flex;
+  align-items: flex-end;
+}
+.installedOverText {
+  margin: 56px 0;
+  font-size: 14px;
+  text-align: left;
+}
+.pumps {
+  width: 100%;
+  margin: 0 auto;
+}
+.pumpsClass {
+  width: 82%;
+}
+.pumpValues {
+  font-size: 12px;
+  margin: 16px 0;
+}
+hr {
+  border-color: red;
+}
+.criFluidSysClass {
+  font-size: 12px;
+  margin: 16px 0;
+  font-weight: bold;
+}
+.informatoryText {
+  font-size: 14px;
+}
+footer {
+  background-color: red;
+  margin-top: 24px;
+}
+.footerData {
+  display: flex;
+  justify-content: center;
+  padding: 42px 0;
+}
+.item {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 14px;
+}
+.footerIcons {
+  width: fit-content;
+  background: white;
+  margin-right: 12px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 1168px) {
+  img {
+    width: 90%;
+  }
+  .headerInfoWrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .trophyHeaderWrap {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .logoResponsive {
+    display: block;
+  }
+  .installedOverText,
+  .informatoryText {
+    text-align: justify;
+  }
+  .footerData {
+    display: block;
+  }
+  .item {
+    width: 100%;
+  }
+}
